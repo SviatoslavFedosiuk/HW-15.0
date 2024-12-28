@@ -214,6 +214,7 @@ body {
 .team-container {
   padding-top: 30px;
   padding-bottom: 30px;
+  background: #FFF; 
 }
 .team-text {
   color: var(--mini-text-color);
@@ -257,6 +258,7 @@ a[href^="https"] {
   border: none;
   background-color: var(--team-background-color);
   padding: 6px 22px 6px 22px;
+  border-radius: 4px;;
 }
 .categories-button:hover {
   color: var(--primary-color);
@@ -282,10 +284,12 @@ a[href^="https"] {
   justify-content: center;
   flex-wrap: wrap;
   gap: 30px;
+  flex-basis: calc((100% - 60px) / 3);
 }
 .image{
 border: 1px solid #EEE;
 padding: 24px 20px 0px 24px;
+padding: 20px 24px;
 }
 .content-subtitle{
   margin-bottom: 4px;
@@ -297,7 +301,6 @@ padding: 24px 20px 0px 24px;
   font-weight: 400;
   line-height: 1.87;
   letter-spacing: 0.48px;
-  padding: 4px 24px 24px 20px
 }
 /* footer */
 .footer-link {
