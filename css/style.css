@@ -285,31 +285,31 @@ a[href^="https"] {
   flex-wrap: wrap;
   gap: 30px;
 }
-.content-list:first-child{
+.content-item:first-child{
 flex-basis: calc((100% - 60px) / 3);
 }
-.content-list:nth-child(2n){
+.content-item:nth-child(2n){
   flex-basis: calc((100% - 60px) / 3);
 }
-.content-list:nth-child(3n){
+.content-item:nth-child(3n){
   flex-basis: calc((100% - 60px) / 3);
 }
-.content-list:nth-child(4n){
+.content-item:nth-child(4n){
   flex-basis: calc((100% - 60px) / 3);
 }
-.content-list:nth-child(5n){
+.content-item:nth-child(5n){
   flex-basis: calc((100% - 60px) / 3);
 }
-.content-list:nth-child(6n){
+.content-litem:nth-child(6n){
   flex-basis: calc((100% - 60px) / 3);
 }
-.content-list:nth-child(7n){
+.content-item:nth-child(7n){
   flex-basis: calc((100% - 60px) / 3);
 }
-.content-list:nth-child(8n){
+.content-item:nth-child(8n){
   flex-basis: calc((100% - 60px) / 3);
 }
-.content-list:last-child{
+.content-litem:last-child{
   flex-basis: calc((100% - 60px) / 3);
 }
 .image{
